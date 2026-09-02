@@ -8,7 +8,11 @@ for x in range(10):
     if svar == tall:
         print("Riktig! Du fant tallet!")
         break
+    elif svar < tall:
+        print("Tallet er høyere.")
+        print("Du har", 9 - x, "forsøk igjen.")
     else:
+        print("Tallet er lavere.")
         print("Du har", 9 - x, "forsøk igjen.")
 
 else:
