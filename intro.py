@@ -13,3 +13,5 @@ for x in range(10):
 
 else:
     print("Du har brukt opp alle forsøkene. Du tapte!")
+
+#dette er bare en test!!!!!!!!
